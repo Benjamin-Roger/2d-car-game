@@ -1,0 +1,38 @@
+[
+  {
+    "id": "speedster",
+    "longName": "Speedster",
+    "maxPower": 3,
+    "maxReverse": 0.3,
+    "powerFactor": 0.15,
+    "reverseFactor": 0.2,
+    "drag": 0.85,
+    "angularDrag": 0.8,
+    "turnSpeed": 0.03,
+    "className": "speedster"
+  },
+  {
+    "id": "classic",
+    "longName": "Classic",
+    "maxPower": 0.6,
+    "maxReverse": 0.2,
+    "powerFactor": 0.1,
+    "reverseFactor": 0.5,
+    "drag": 0.95,
+    "angularDrag": 0.94,
+    "turnSpeed": 0.015,
+    "className": "classic"
+  },
+  {
+    "id": "sedan",
+    "longName": "Sedan",
+    "maxPower": 3,
+    "maxReverse": 2,
+    "powerFactor": 0.08,
+    "reverseFactor": 0.015,
+    "drag": 0.7,
+    "angularDrag": 0.6,
+    "turnSpeed": 0.025,
+    "className": "sedan"
+  }
+]

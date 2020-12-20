@@ -1,0 +1,38 @@
+/*! purgecss start ignore */
+
+$width: 20;
+$height: 40;
+
+.car {
+  position: absolute;
+  top: -$height/2 + 0px;
+  left: -$width/2 + 0px;
+  width: $width + 0px;
+  height: $height + 0px;
+  border-radius: 2px;
+  will-change: transform;
+
+  &::after {
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: block;
+    width: $width + 0px;
+    height: $height + 0px;
+  }
+
+  &.speedster::after {
+    background-image: url("/images/speedster.png");
+  }
+
+  &.sedan::after {
+    background-image: url("/images/sedan.png");
+  }
+
+  &.classic::after {
+    background-image: url("/images/classic.png");
+  }
+}
+
+/*! purgecss end ignore */

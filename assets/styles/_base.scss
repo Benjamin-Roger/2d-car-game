@@ -1,0 +1,30 @@
+/*! purgecss start ignore */
+
+
+@import "canvas";
+@import "car";
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  touch-action: none;
+  background-color: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+a {
+  outline: none !important;
+}
+
+
+/*! purgecss end ignore */

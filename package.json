@@ -1,0 +1,28 @@
+{
+  "name": "2d-car-drift-game",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.2",
+    "@svgr/webpack": "^5.5.0",
+    "autoprefixer": "^10.1.0",
+    "next": "10.0.3",
+    "next-seo": "^4.17.0",
+    "postcss": "^8.2.1",
+    "postcss-100vh-fix": "^1.0.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-keyboard-event-handler": "^1.5.4",
+    "sass": "^1.30.0",
+    "tailwindcss": "^2.0.2"
+  }
+}

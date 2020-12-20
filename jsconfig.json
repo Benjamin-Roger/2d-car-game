@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/libs/*": [
+                "libs/*"
+            ]
+            ,"@/hooks/*": [
+                "hooks/*"
+            ],
+            
+            "@/context/*": [
+                "context/*"
+            ]
+            ,
+            "@/components/*": [
+                "components/*"
+            ]
+            ,
+            "@/assets/*": [
+                "assets/*"
+            ]
+            ,
+            "@/styles/*": [
+                "assets/styles/*"
+            ],
+            "@/config": [
+                "config.js"
+            ]
+        }
+    }
+}
