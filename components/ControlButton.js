@@ -40,7 +40,7 @@ const styles = {
 const ControlButton = (props) => {
   const { action, ...otherProps } = props;
 
-  var icon = "";
+  let icon = "";
 
   switch (action) {
     case "accelerate":

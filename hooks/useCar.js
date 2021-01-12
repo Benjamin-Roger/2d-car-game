@@ -41,7 +41,7 @@ export const useCar = () => {
   } = getCarSpecs();
 
   //   Set initial car value
-  var initialCar = {
+  let initialCar = {
     styles: "",
     x: windowWidth / 2,
     y: windowHeight / 2,

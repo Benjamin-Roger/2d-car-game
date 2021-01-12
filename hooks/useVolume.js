@@ -31,16 +31,16 @@ export function useVolume() {
           analyser.connect(javascriptNode);
           javascriptNode.connect(audioContext.destination);
           javascriptNode.onaudioprocess = function () {
-            var array = new Uint8Array(analyser.frequencyBinCount);
+            let array = new Uint8Array(analyser.frequencyBinCount);
             analyser.getByteFrequencyData(array);
-            var values = 0;
+            let values = 0;
 
-            var length = array.length;
-            for (var i = 0; i < length; i++) {
+            let length = array.length;
+            for (let i = 0; i < length; i++) {
               values += array[i];
             }
 
-            var average = values / length;
+            let average = values / length;
 
             if (average > 5) {
               setVolume(Math.round(average, 2));
